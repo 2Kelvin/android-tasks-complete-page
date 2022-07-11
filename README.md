@@ -2,4 +2,4 @@
 
 I learned how to center Column composable ontent Vertically and Horizontally
 
-![tasks_page](https://user-images.githubusercontent.com/85868026/178352570-81ef1f80-490a-4d9f-8f87-c471bd5ea5e1.png)
+![tasks_page_complete](https://user-images.githubusercontent.com/85868026/178353337-197e99a7-f3a4-4fc3-8f90-ccdfe779ae15.png)
