@@ -55,11 +55,8 @@ fun TasksComplete(textBold:String) {
     Text(
         text = textBold,
         fontSize = 24.sp,
-        modifier = Modifier
-            .padding(top = 24.dp, bottom = 8.dp)
-            .fillMaxWidth(),
-        fontWeight = FontWeight.Bold,
-        textAlign = TextAlign.Center
+        modifier = Modifier.padding(top = 24.dp, bottom = 8.dp),
+        fontWeight = FontWeight.Bold
     )
 }
 
@@ -67,15 +64,17 @@ fun TasksComplete(textBold:String) {
 fun TextNice(niceText:String) {
     Text(
         text = niceText,
-        fontSize = 16.sp,
-        modifier = Modifier.fillMaxWidth(),
-        textAlign = TextAlign.Center
+        fontSize = 16.sp
     )
 }
 
 @Composable
 fun PageComplete(textBold: String, niceText: String) {
-    Column(Modifier.fillMaxHeight()) {
+    Column(
+        Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
         ImageCheck()
         TasksComplete(textBold)
         TextNice(niceText)
